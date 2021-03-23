@@ -1,4 +1,56 @@
+body {
+    background: #080a0b;
+    color: #fff;
+}
 
-h1 {
-    color: rgb(97, 231, 40);
+header big {
+	letter-spacing: 4px;
+	font-size: 40px;
+	font-weight: bold;
+}
+
+section:first-of-type {
+    background: linear-gradient(to right, #bb84af, #8cf1c2);
+}
+
+
+section:not(:first-of-type) {
+    min-height: 100vh;
+    border-top: none;
+}
+
+section:nth-of-type(2) {
+    background: #8fc4ec;
+}
+
+#aboutwrap {
+	background: url(../img/singolo.jpg) no-repeat center top;
+	margin-top: -70px;
+	padding-top: 250px;
+	text-align:center;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 550px;
+	width: 100%;
+}
+
+#one p{
+    text-indent: 2rem;
+    text-align: center;
+}
+
+#hero h1 {
+    letter-spacing: 5px;
+}
+
+section:nth-of-type(3) {
+    background: #a3bcc9;
+}
+
+section:nth-of-type(4) {
+    background: #acc2f1;
+}
+
+.nav-link:hover, .nav-link:focus {
+    color: #f2709c;
 }
