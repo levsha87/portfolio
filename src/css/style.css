@@ -54,3 +54,11 @@ section:nth-of-type(4) {
 .nav-link:hover, .nav-link:focus {
     color: #f2709c;
 }
+
+.carousel-control-prev-icon {
+    margin-left: -120%;
+}
+
+.carousel-control-next-icon {
+    margin-right: -120%;
+}
