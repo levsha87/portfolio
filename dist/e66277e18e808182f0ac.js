@@ -1,0 +1,1 @@
+import{Tooltip,Toast,Popover}from"bootstrap";import"./css/style.css";import"bootstrap/dist/css/bootstrap.min.css";import"../node_modules/@fortawesome/fontawesome-free/css/all.css";import"../index.html";
